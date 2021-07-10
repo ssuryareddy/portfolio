@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './SideBar.css';
 import Surya from './image/surya.jpg';
 import { FaFacebook } from 'react-icons/fa';
@@ -44,7 +44,7 @@ function SideBar({open}) {
         <StyledMenu open={open}>
             <div className="sidenavbar">
                 <div className="logo-img">
-                    <img src={Surya}/>
+                    <img src={Surya} alt="pic"/>
                     <div className="logo-title">
                         <h5>SURYA</h5>
                     </div>

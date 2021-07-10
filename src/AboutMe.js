@@ -1,7 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import "./AboutMe.css";
 import ContentImg from "./image/surya-img.jpg";
-import SidebarOpen from './SidebarOpen'
 
 function AboutMe() {
     return (
@@ -34,7 +33,7 @@ function AboutMe() {
                 </div>
                 </div>
                 <div className="content-img">
-                    <img src={ContentImg} />
+                    <img src={ContentImg} alt="img" />
                 </div>
             </div>
         </div>
