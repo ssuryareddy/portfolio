@@ -1,0 +1,32 @@
+.background-img{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/homeimg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title h4{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+    
+}
+.title h1{
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+}
+.title p{
+    text-align: center;
+    color: #fff;
+}
+.title span{
+    color: #fff;
+    font-size: 50px;
+}

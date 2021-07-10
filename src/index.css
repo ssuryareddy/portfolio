@@ -5,9 +5,98 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bars {
+  display: none;
+}
+@media screen and (max-width:998px){
+  .about-page {
+    margin-left: 0!important;
+    height: auto!important;
+  }
+  .skill-list {
+    padding: 0;
+}
+  .personal-infos{
+    display: block!important;
+  }
+  .right-content{
+    padding-left: 0!important;
+  }
+  .main-content{
+    display: block!important;
+    height: auto!important;
+  }
+  .personal-heading h1{
+    font-size: 25px!important;
+  }
+  .content-img img {
+    width: 100%;
+  }
+  .about-me h2 {
+    margin-top: 0;
+  }
+  .bars {
+    display: block;
+  }
+  .social-media{
+    position: static!important;
+  }
+}
+@media screen and (max-width:998px){
+  .do{
+    margin-left: 0!important;
+    height: auto!important;
+  }
+  .details p{
+    font-size: 16px!important;
+    display: block;
+  }
+  .skill-list li {
+    font-size: 16px!important;
+    display: block;
+  }
+ 
+}
+@media screen and (max-width:998px){
+  .home-page{
+    margin-left: 0!important;
+    height: auto!important;
+  }
+  .title span{
+    font-size: 30px!important;
+  }
+}
+@media screen and (max-width:998px){
+    .background-img{
+      margin: 0!important;
+    }
+  .contact-details{
+    display: block!important;
+    margin: 0!important;  
+  }
+  form{
+    padding: 0!important;
+  }
+  input[type=text], select {
+    width: 100%!important ;
+  }
+  .contact-details {
+    padding: 30px;
+  }
+}
+@media screen and (max-width:998px){
+  .what-i-do{
+    padding: 30px!important;
+    margin: 0!important;
+    height: auto!important;
+    font-size: 25px!important;
+  }
+}
+

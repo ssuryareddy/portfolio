@@ -1,0 +1,32 @@
+.details p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.skill-list li {
+    font-size: 15px;
+    margin: 20px 0;
+}
+.skills h5{
+    font-size: 25px;
+    margin: 10px 0px;
+    text-shadow: 12px 8px 17px black
+
+}
+.details h4{
+    font-size: 25px;
+    margin: 10px 0px;
+    text-shadow: 12px 8px 17px black
+}
+.project h5{
+    font-size: 30px;
+    margin: 10px 0px;
+    text-shadow: 12px 8px 17px black
+}
+.what-i-do{
+    padding: 50px;
+    color: #fff;
+    background-image: linear-gradient(#000000,#434343);
+    height: 100vh;
+    margin-left:230px;
+
+}
